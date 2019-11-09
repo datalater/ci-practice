@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - 10.16.2
 script:
-  - npx codeceptjs run --steps
+  - sh ./build.sh
