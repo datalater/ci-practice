@@ -1,16 +1,16 @@
 exports.config = {
-  tests: './*_test.js',
-  output: './output',
+  tests: "./*_test.js",
+  output: "./output",
   helpers: {
     Puppeteer: {
-      url: 'http://localhost',
-      show: true
+      url: "http://localhost",
+      show: false
     }
   },
   include: {
-    I: './steps_file.js'
+    I: "./steps_file.js"
   },
   bootstrap: null,
   mocha: {},
-  name: 'ci-practice'
-}
+  name: "ci-practice"
+};
