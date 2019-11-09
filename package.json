@@ -1,0 +1,24 @@
+{
+  "name": "ci-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datalater/ci-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datalater/ci-practice/issues"
+  },
+  "homepage": "https://github.com/datalater/ci-practice#readme",
+  "devDependencies": {
+    "codeceptjs": "^2.3.5",
+    "puppeteer": "^2.0.0"
+  }
+}
