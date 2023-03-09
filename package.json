@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/datalater/ci-practice#readme",
   "devDependencies": {
-    "codeceptjs": "^2.3.5",
+    "codeceptjs": "^3.4.1",
     "puppeteer": "^2.0.0"
   }
 }
